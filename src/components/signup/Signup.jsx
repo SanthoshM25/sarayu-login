@@ -28,7 +28,7 @@ const Signup = () => {
           history.push("/");
         }
       })
-      .catch((err) => alert(err.errors.message));
+      .catch((err) => alert.show("Enter valid details"));
 
     setSignUpData({
       user_type: "",
