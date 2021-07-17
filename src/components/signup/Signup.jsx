@@ -2,10 +2,11 @@ import { Link, useHistory } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import "./signup.css";
+import { useAlert } from "react-alert";
 
 const Signup = () => {
   const history = useHistory();
-
+  const alert = useAlert();
   const [signUpData, setSignUpData] = useState({
     user_type: "",
     email: "",
