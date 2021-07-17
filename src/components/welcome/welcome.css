@@ -1,0 +1,32 @@
+.welcome-message-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+.logout-btn {
+  float: left;
+  margin: 1em;
+  padding: 0.3em;
+  background-color: #fff;
+  border: 1px solid rgb(126, 123, 123);
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.welcome-content {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+.signup-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  display: flex;
+  max-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1em 6em;
+}
+
+.signup-row {
+  margin: 0.3em;
+}
+
+.signup-form .inp {
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1.2em;
+  min-width: 100%;
+}
+
+.phone-text {
+  font-size: 0.7rem;
+  align-self: flex-start;
+}

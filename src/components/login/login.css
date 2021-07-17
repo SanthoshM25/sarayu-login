@@ -1,0 +1,54 @@
+.login-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  max-height: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1em 3em;
+}
+
+.login-row {
+  margin: 0.3em;
+}
+
+.inp {
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1.2em;
+  min-width: 50%;
+}
+
+.submit-btn {
+  margin-top: 1em;
+  width: 30%;
+  padding: 0.3em;
+  background-color: #fff;
+  border: 1px solid rgb(126, 123, 123);
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.new-user {
+  font-size: 0.9rem;
+}
